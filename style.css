@@ -1,0 +1,99 @@
+
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+body{
+  background: #66A7C5;
+  font-family: 'Oswald', sans-serif;
+  font-weight:light;
+}
+
+
+
+#con{
+  position:relative;
+  text-align:center;
+  display:none;
+
+  overflow: hidden;
+  background-color: white;
+  padding:20px;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right:auto;
+
+
+
+
+}
+.loading_gif{
+  margin-left: auto;
+  margin-right:auto;
+  
+   display:table;
+   height:50px;
+
+}
+#location_city{
+  display:block;
+    margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+  font-size:140%;
+
+}
+#location_country{
+  display:block;
+    margin-left: auto;
+  margin-right: auto;
+  font-weight: 400;
+  font-size: 120%;
+
+}
+#weather{
+  display:block;
+   margin-left: auto;
+  margin-right: auto;
+}
+#description{
+  display:block;
+   margin-left: auto;
+  margin-right: auto;
+}
+#icon{
+  height:70px;
+  display:block;
+  overflow:hidden;
+   margin-left: auto;
+  margin-right: auto;
+}
+.weather_img{
+ height:120px;
+ margin:-20px
+
+}
+#temp{
+    display:inline;
+   margin-left: auto;
+  margin-right: auto;
+
+}
+#temp_unit {
+display:inline;
+color:blie;
+cursor: pointer;
+ background:none;
+ border:none; 
+  padding:0;
+
+
+}
+#temp_unit:focus, #temp_unit:active, #temp_unit.active{
+
+  outline:0;
+
+}
+
+#humid{
+
+   margin-left: auto;
+  margin-right: auto;
+}
